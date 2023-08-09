@@ -1,0 +1,33 @@
+/** @format */
+
+.star-block {
+  display: inline-block;
+  margin: 1vw;
+}
+
+.star-block-wrap {
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.star-block-wrap:hover {
+  background-color: #1717179d;
+}
+
+.star-block-img {
+  width: 20vw;
+}
+
+@media screen and (max-width: 1050px) and (min-width: 815px) {
+  .star-block-img {
+    width: 30vw;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .star-block-img {
+    width: 80vw;
+  }
+}
